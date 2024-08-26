@@ -14,7 +14,7 @@ public class count_digits {
     }
 
     public static void main(String[]args){
-        int n = 10000;
+        int n = 100000;
         System.out.println("The count of digits is"+" "+count_digits_num(n));
 
     }
