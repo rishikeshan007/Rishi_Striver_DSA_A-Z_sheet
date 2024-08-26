@@ -5,7 +5,7 @@ public class count_digits {
     public static int count_digits_num(int n){
          int res = 0;
          while(n>0){
-             int rem = n%10;
+             n =  n%10;
              res++;
              n/=10;
          }
