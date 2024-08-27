@@ -25,7 +25,7 @@ public class binary_search {
 
     public static void main(String[] args) {
         int[]arr = {10,20,30,40,50};
-        int target = 20;
+        int target = 40;
         int ans = binary_search_algo(arr,target);
         if(ans!=-1){
             System.out.println("The element found at the position:"+ ans);
